@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ShortCalculator
+comment1.params=num1\ num2
+comment1.target=short\ add(short,\ short)
+comment1.text=public\ short\ claculator(short\ num1,\ short\ num2,\ String\ operator)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ short\ result\ \=\ 0;\n\ \ \ \ \ \ \ \ \ \ \ \ switch\ (operator)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ case\ "+"\:\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ result\ \=\ (short)(num1\ +\ num2);\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ break;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ case\ "-"\:\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ result\ \=\ (short)(num1\ -\ num2);\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ break;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ case\ "/"\:\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ result\ \=\ (short)(num1\ -\ num2);\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ break;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ case\ "*"\:\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ result\ \=\ (short)(num1\ -\ num2);\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ break;\ \ \ \ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ case\ "%"\:\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ result\ \=\ (short)(num1\ %\ num2);\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ break;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ default\:\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ System.out.println("Please\ enter\ a\ valid\ operator");\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\ \ \ \ \n\ \ \ \ \ \ \ \ \ \ \ \ return\ result;\n\ \ \ \ \ \ \ \ }\ \ \n
+comment2.params=num1\ num2
+comment2.target=short\ subtract(short,\ short)
+comment3.params=num1\ num2
+comment3.target=short\ multiply(short,\ short)
+comment4.params=num1\ num2
+comment4.target=short\ divide(short,\ short)
+comment5.params=num1\ num2
+comment5.target=short\ modulus(short,\ short)
+numComments=6
